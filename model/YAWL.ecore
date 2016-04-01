@@ -17,11 +17,10 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="#//PlaceTypes"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="TransitionType" eSuperTypes="../../org.pnml.tools.epnk/model/PNMLCoreModel.ecore#//Attribute">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="#//TransitionTypes"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//TransitionTypes"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ArcType" eSuperTypes="../../org.pnml.tools.epnk/model/PNMLCoreModel.ecore#//Attribute">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="#//ArcTypes"
-        defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="#//ArcTypes"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="PlaceTypes">
     <eLiterals name="Start"/>
