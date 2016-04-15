@@ -4,9 +4,9 @@
     modelName="YAWL" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
     importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
     usedGenPackages="../../org.pnml.tools.epnk/model/PNMLCoreModel.genmodel#//pnmlcoremodel"
-    operationReflection="true" importOrganizing="true">
+    importOrganizing="true">
   <foreignModel>YAWL.ecore</foreignModel>
-  <genPackages prefix="Yawl" disposableProviderFactory="true" ecorePackage="YAWL.ecore#/">
+  <genPackages prefix="Yawl" basePackage="yawl" disposableProviderFactory="true" ecorePackage="YAWL.ecore#/">
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="YAWL.ecore#//PlaceTypes">
       <genEnumLiterals ecoreEnumLiteral="YAWL.ecore#//PlaceTypes/Start"/>
       <genEnumLiterals ecoreEnumLiteral="YAWL.ecore#//PlaceTypes/End"/>
